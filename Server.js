@@ -11,7 +11,7 @@ connectdb();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://your-portfolio.netlify.app'  // ← Netlify deploy hone ke baad real URL daalna
+    'https://amitdev-portfolio.netlify.app/'  // ← Netlify deploy hone ke baad real URL daalna
   ],
   credentials: true
 }));
